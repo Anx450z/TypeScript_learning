@@ -1,14 +1,25 @@
-function combine(input1, input2) {
+function combine(input1, input2, resultConversion // using literal type
+) {
     var result;
-    if (typeof input1 === 'number' && typeof input2 == 'number') {
-        result = input1 + input2;
+    if (typeof input1 === 'number' && typeof input2 == 'number' || resultConversion == 'as-number') {
+        result = +input1 + +input2; //converted into number
     }
     else {
         result = input1.toString() + input2.toString();
     }
     return result;
+    // if (resultConversion === 'as-number'){
+    //   return +result;
+    // }
+    // else{
+    //   return result.toString();
+    // }
 }
-var combinedAges = combine(30, 26);
+var combinedAges = combine(30, 26, 'as-number');
 console.log(combinedAges);
-var combineNames = combine('Ankur', ' Singh');
+var combineNames = combine('30', ' 26', 'as-text');
 console.log(combineNames);
+var combineStringNames = combine('Ankur', ' Singh', 'as-number');
+console.log(combineStringNames);
+// const combineEmojiNames = combine('Ankur', ' Singh', 'as-emoji'); // !! ERROR
+// console.log(combineEmojiNames);

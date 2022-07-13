@@ -29,6 +29,7 @@
 * object : example = {age:30}
 * arrays : example = [1,2,true, 'Ankur']
 * tuple : example = [1,2] (immutable array with 2 elements)
+* Enum : example = enum{ NEW, OLD }
 
 # Notes
 

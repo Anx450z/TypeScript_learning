@@ -26,6 +26,8 @@
 * number : example = 1, 5.3, -10
 * string : example = 'hello', "hello", `hello`
 * boolean : example = true, false (0 is false)
+* object : example = {age:30}
+* arrays : example = [1,2,true, 'Ankur']
 
 # Notes
 

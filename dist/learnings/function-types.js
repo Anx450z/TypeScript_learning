@@ -15,3 +15,4 @@ function generateError(message, code) {
     };
 }
 generateError("This is my custom error!", 500);
+//# sourceMappingURL=function-types.js.map

@@ -24,3 +24,4 @@ const combineStringNames = combine('Ankur', ' Singh', 'as-number');
 console.log(combineStringNames);
 // const combineEmojiNames = combine('Ankur', ' Singh', 'as-emoji'); // !! ERROR
 // console.log(combineEmojiNames);
+//# sourceMappingURL=unio-alias.js.map

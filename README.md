@@ -21,7 +21,7 @@
 * Third-Party Libs & TypeScript
 * React + TypeScript & NodeJS + TypeScript
 
-# Core Types JS and TS
+# Core Types of TS
 
 * number : example = 1, 5.3, -10
 * string : example = 'hello', "hello", `hello`
@@ -31,7 +31,7 @@
 * tuple : example = [1,2] (immutable array with 2 elements)
 * enum : example = enum{ NEW, OLD }
 * any : example = can assign any type just like JS
-
+* unknown : example = can assign unknown value, different than any
 # Notes
 
 * TS does not implement measures to catch errors during runtime when 

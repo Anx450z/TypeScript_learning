@@ -18,4 +18,3 @@ addAndHandle(10, 20, (result) => {
     console.log(result); // result will be of number type
     return result; // we can return value here, but will not be used inside addAndHandle function as return type is void
 });
-//# sourceMappingURL=function.js.map

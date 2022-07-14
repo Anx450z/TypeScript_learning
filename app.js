@@ -6,3 +6,11 @@ userInput = 'Max';
 if (typeof userInput == 'string') {
     userName = userInput; // no ERROR
 }
+function generateError(message, code) {
+    // hash in JS or Object type
+    throw {
+        message: message,
+        code: code
+    };
+}
+generateError("This is my custom error!", 500);

@@ -42,3 +42,9 @@
 
 * TS does not implement measures to catch errors during runtime when 
   compiled to JS. It is used to catch errors during development.
+
+# Commands
+
+* watch mode for single file: tsc <file_name> -watch
+* watch for entire folder : tsc --init
+  then run tsc, to compile all files. also support mode for all file : tsc -w

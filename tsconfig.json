@@ -99,5 +99,17 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  "exclude": [
+    "basic.ts", // does not compile basic.ts file while running tsc
+    "*.dev.ts", // does not compile ant file ending with .dev.ts
+    "**/*.dev.ts", // does not compile any file in any folder ending with .dev.ts
+    "node_modules" // does not compile any file from node modules, it is excluded by default
+  ],
+  "include":[
+    "app.ts" // compile app.ts file while running tsc command, tsc compiles (include - exclude)
+  ],
+  "files": [
+    "app.ts" // for smaller project, not useful mostly
+  ]
 }

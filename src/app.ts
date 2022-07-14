@@ -1,5 +1,5 @@
-const button = document.querySelector('button')!; // suppress TS error by using bang operator (!)
+const button = document.querySelector('button')!; // use ! to suppress null check by TS
 
-button?.addEventListener('click', () => {
+button.addEventListener('click', () => {
   console.log('Clicked');
 });
